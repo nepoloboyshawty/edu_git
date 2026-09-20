@@ -9,4 +9,6 @@ fun main() {
 
     res = subtract(5, 6)
     print("$res\n")
+
+    print("${countChars("Hello Kotlin!")}\n")
 }

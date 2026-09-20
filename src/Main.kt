@@ -13,3 +13,5 @@ fun fact(n: Int): Int {
 }
 
 fun sum(a: Int, b: Int) = a + b
+fun sum(a: Int, b: Double) = a + b
+fun sum(a: Double, b: Double) = a + b

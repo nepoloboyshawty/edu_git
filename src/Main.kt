@@ -1,5 +1,8 @@
 fun main() {
-    val res = fact(5)
+    var res = fact(5)
+    print("$res\n")
+
+    res = sum(3, 6)
     print("$res\n")
 }
 
@@ -8,3 +11,5 @@ fun fact(n: Int): Int {
         return 1
     return fact(n - 1) * n
 }
+
+fun sum(a: Int, b: Int) = a + b

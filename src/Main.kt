@@ -6,4 +6,7 @@ fun main() {
 
     res = sum(3, 6)
     print("$res\n")
+
+    res = subtract(5, 6)
+    print("$res\n")
 }

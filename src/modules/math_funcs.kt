@@ -1,3 +1,5 @@
+package modules
+
 fun fact(n: Int): Int {
     if(n == 1)
         return 1

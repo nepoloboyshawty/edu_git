@@ -11,4 +11,5 @@ fun main() {
     print("$res\n")
 
     print("${countChars("Hello Kotlin!")}\n")
+    // тестовый комментарий
 }
